@@ -22,4 +22,9 @@
     <ProjectReference Include="..\src\Domain\Domain.csproj" />
     <ProjectReference Include="..\src\Infrastructure\Infrastructure.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Repositories\Abstraction\IGenericRepository.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
 </Project>
