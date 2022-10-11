@@ -11,6 +11,7 @@
     <None Remove="Repositories\" />
     <None Remove="Repositories\Abstraction\" />
     <None Remove="Repositories\Implementation\" />
+    <None Remove="Microsoft.EntityFrameworkCore" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Interfaces\" />
@@ -19,12 +20,14 @@
     <Folder Include="Repositories\Implementation\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\src\Domain\Domain.csproj" />
-    <ProjectReference Include="..\src\Infrastructure\Infrastructure.csproj" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Repositories\Abstraction\IGenericRepository.cs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.9" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
   </ItemGroup>
 </Project>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/narmin/Projects/BookShop/Application/Application.csproj": {}
+    "/Users/narmin/Projects/BookShop/src/Application/Application.csproj": {}
   },
   "projects": {
-    "/Users/narmin/Projects/BookShop/Application/Application.csproj": {
+    "/Users/narmin/Projects/BookShop/src/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/narmin/Projects/BookShop/Application/Application.csproj",
+        "projectUniqueName": "/Users/narmin/Projects/BookShop/src/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "/Users/narmin/Projects/BookShop/Application/Application.csproj",
+        "projectPath": "/Users/narmin/Projects/BookShop/src/Application/Application.csproj",
         "packagesPath": "/Users/narmin/.nuget/packages/",
-        "outputPath": "/Users/narmin/Projects/BookShop/Application/obj/",
+        "outputPath": "/Users/narmin/Projects/BookShop/src/Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/narmin/.nuget/NuGet/NuGet.Config"
@@ -28,9 +28,6 @@
             "projectReferences": {
               "/Users/narmin/Projects/BookShop/src/Domain/Domain.csproj": {
                 "projectPath": "/Users/narmin/Projects/BookShop/src/Domain/Domain.csproj"
-              },
-              "/Users/narmin/Projects/BookShop/src/Infrastructure/Infrastructure.csproj": {
-                "projectPath": "/Users/narmin/Projects/BookShop/src/Infrastructure/Infrastructure.csproj"
               }
             }
           }
@@ -44,6 +41,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -97,61 +100,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/narmin/Projects/BookShop/src/Infrastructure/Infrastructure.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/narmin/Projects/BookShop/src/Infrastructure/Infrastructure.csproj",
-        "projectName": "Infrastructure",
-        "projectPath": "/Users/narmin/Projects/BookShop/src/Infrastructure/Infrastructure.csproj",
-        "packagesPath": "/Users/narmin/.nuget/packages/",
-        "outputPath": "/Users/narmin/Projects/BookShop/src/Infrastructure/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/narmin/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.9, )"
             }

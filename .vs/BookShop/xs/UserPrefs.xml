@@ -1,21 +1,30 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/Application/Repositories/Abstraction/IGenericRepository.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/Domain/Entities/BookFormat.cs">
     <Files>
-      <File FileName="Application/Class1.cs" Line="1" Column="1" />
       <File FileName="src/Domain/Class1.cs" Line="1" Column="1" />
       <File FileName="src/Infrastructure/Class1.cs" Line="1" Column="1" />
       <File FileName="src/Domain/Common/BaseEntity.cs" Line="6" Column="37" />
       <File FileName="src/Domain/Common/BaseAuditibleEntity.cs" Line="12" Column="1" />
       <File FileName="src/Infrastructure/Persistence/ApplicationDbContext.cs" Line="13" Column="1" />
-      <File FileName="Application/Repositories/Abstraction/IGenericRepository.cs" Line="16" Column="1" />
-      <File FileName="Application/Repositories/Implementation/GenericRepository.cs" Line="9" Column="6" />
+      <File FileName="src/Application/Repositories/Abstraction/IGenericRepository.cs" Line="11" Column="13" />
+      <File FileName="src/Application/Repositories/Implementation/GenericRepository.cs" Line="12" Column="10" />
+      <File FileName="src/Domain/Entities/Category.cs" Line="12" Column="1" />
+      <File FileName="src/Domain/Entities/Book.cs" Line="2" Column="1" />
+      <File FileName="src/Domain/Entities/BookFormat.cs" Line="11" Column="1" />
+      <File FileName="src/Domain/global.cs" Line="2" Column="1" />
+      <File FileName="src/Domain/Entities/BookReview.cs" Line="6" Column="20" />
+      <File FileName="src/Domain/Entities/BookImage.cs" Line="6" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BookShop" expanded="True">
-            <Node name="src" expanded="True" />
+            <Node name="src" expanded="True">
+              <Node name="Domain" expanded="True">
+                <Node name="Common" expanded="True" />
+                <Node name="Entities" expanded="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -24,12 +33,10 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <DisabledProjects>
-    <String>Application/Application.csproj</String>
-  </DisabledProjects>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
