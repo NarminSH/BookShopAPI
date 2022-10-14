@@ -6,8 +6,7 @@ namespace Domain.Entities
         public string ImageUrl { get; set; }
         public string BookTitle { get; set; }
         public decimal Price { get; set; }
-        public int UserId { get; set; }
-        public User User { get; set; }
+        public Wishlist Wishlist { get; set; }
     }
 }
 

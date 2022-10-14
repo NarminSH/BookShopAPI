@@ -6,6 +6,10 @@ namespace Domain.Entities
         public string Title { get; set; }
         public string Body { get; set; }
         public double Rate { get; set; }
+        public int BookId { get; set; }
+        public Book Book { get; set; }
+        public string UserId { get; set; }
+        public AppUser User { get; set; }
     }
 }
 

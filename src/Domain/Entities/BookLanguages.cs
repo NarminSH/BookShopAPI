@@ -2,7 +2,7 @@
 
 namespace Domain.Entities
 {
-    public class BookLanguages
+    public class BookLanguages : BaseAuditibleEntity
     {
         public int BookId { get; set; }
         public Book Book { get; set; } = null!;

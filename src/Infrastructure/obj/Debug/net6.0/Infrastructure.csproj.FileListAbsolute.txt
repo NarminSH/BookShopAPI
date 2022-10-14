@@ -1,11 +1,17 @@
+/Users/narmin/Projects/BookShop/src/Infrastructure/bin/Debug/net6.0/Repositories/Abstraction/IGenericRepository.cs
 /Users/narmin/Projects/BookShop/src/Infrastructure/bin/Debug/net6.0/Infrastructure.deps.json
 /Users/narmin/Projects/BookShop/src/Infrastructure/bin/Debug/net6.0/Infrastructure.dll
 /Users/narmin/Projects/BookShop/src/Infrastructure/bin/Debug/net6.0/Infrastructure.pdb
+/Users/narmin/Projects/BookShop/src/Infrastructure/bin/Debug/net6.0/Application.dll
+/Users/narmin/Projects/BookShop/src/Infrastructure/bin/Debug/net6.0/Domain.dll
+/Users/narmin/Projects/BookShop/src/Infrastructure/bin/Debug/net6.0/Domain.pdb
+/Users/narmin/Projects/BookShop/src/Infrastructure/bin/Debug/net6.0/Application.pdb
 /Users/narmin/Projects/BookShop/src/Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.AssemblyReference.cache
 /Users/narmin/Projects/BookShop/src/Infrastructure/obj/Debug/net6.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
 /Users/narmin/Projects/BookShop/src/Infrastructure/obj/Debug/net6.0/Infrastructure.AssemblyInfoInputs.cache
 /Users/narmin/Projects/BookShop/src/Infrastructure/obj/Debug/net6.0/Infrastructure.AssemblyInfo.cs
 /Users/narmin/Projects/BookShop/src/Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.CoreCompileInputs.cache
+/Users/narmin/Projects/BookShop/src/Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.CopyComplete
 /Users/narmin/Projects/BookShop/src/Infrastructure/obj/Debug/net6.0/Infrastructure.dll
 /Users/narmin/Projects/BookShop/src/Infrastructure/obj/Debug/net6.0/refint/Infrastructure.dll
 /Users/narmin/Projects/BookShop/src/Infrastructure/obj/Debug/net6.0/Infrastructure.pdb

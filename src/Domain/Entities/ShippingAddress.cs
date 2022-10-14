@@ -3,8 +3,8 @@ namespace Domain.Entities
 {
     public class ShippingAddress: BaseAuditibleEntity
     {
-        public int UserId { get; set; }
-        public User User { get; set; }
+        public string? UserId { get; set; }
+        public AppUser User { get; set; }
         public string Country { get; set; }
         public string Address { get; set; }
         public string DetailedAddress { get; set; }

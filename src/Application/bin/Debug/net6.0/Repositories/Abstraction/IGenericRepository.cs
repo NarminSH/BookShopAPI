@@ -5,13 +5,14 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Application.Repositories.Abstraction
 {
-    public interface IGenericRepository<T, U> where T : BaseEntity where U : DbContext
+    public interface IGenericRepository<T> where T : class 
     {
-        Task<T> AddAsync(T entity);
-        void Delete(T entity);
+        Task<bool> AddAsync(T entity);
+        Task<bool> AddRangeAsync(IEnumerable<T> entities);
+        bool Delete(T item);
         Task<IEnumerable<T>> GetAllAsync();
-        Task<T> Get(Guid id);
-        
+        Task<T> GetById(int id);
+        bool Update(T entity);
     }
 }
 

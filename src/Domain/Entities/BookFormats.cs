@@ -1,7 +1,7 @@
 ﻿using System;
 namespace Domain.Entities
 {
-    public class BookFormats
+    public class BookFormats :BaseAuditibleEntity
     {
         public int BookId { get; set; }
         public Book Book { get; set; } = null!;

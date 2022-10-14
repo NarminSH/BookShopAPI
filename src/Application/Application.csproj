@@ -7,17 +7,80 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Interfaces\" />
     <None Remove="Repositories\" />
     <None Remove="Repositories\Abstraction\" />
-    <None Remove="Repositories\Implementation\" />
     <None Remove="Microsoft.EntityFrameworkCore" />
+    <None Remove="MediatR.Extensions.Microsoft.DependencyInjection" />
+    <None Remove="FluentValidation.DependencyInjectionExtensions" />
+    <None Remove="AutoMapper.Extensions.Microsoft.DependencyInjection" />
+    <None Remove="Common\" />
+    <None Remove="Common\Mapping\" />
+    <None Remove="Dtos\" />
+    <None Remove="Users\" />
+    <None Remove="Users\Commands\" />
+    <None Remove="Users\Queries\" />
+    <None Remove="Users\Commands\CreateUser\" />
+    <None Remove="Users\Queries\GetUsers\" />
+    <None Remove="Dtos\UserDtos\" />
+    <None Remove="Dtos\BookFormatDtos\" />
+    <None Remove="Dtos\BookLanguageDtos\" />
+    <None Remove="Dtos\LanguageDtos\" />
+    <None Remove="Dtos\FormatDtos\" />
+    <None Remove="Dtos\GenreDtos\" />
+    <None Remove="Dtos\WishlistItemDtos\" />
+    <None Remove="Dtos\WishlistDtos\" />
+    <None Remove="Dtos\ShippingAddressDtos\" />
+    <None Remove="Dtos\ReviewDtos\" />
+    <None Remove="Dtos\CheckoutDtos\" />
+    <None Remove="Dtos\BookGenreDtos\" />
+    <None Remove="Languages\" />
+    <None Remove="Formats\" />
+    <None Remove="Genres\" />
+    <None Remove="Formats\Commands\" />
+    <None Remove="Formats\Queries\" />
+    <None Remove="Genres\Commands\" />
+    <None Remove="Genres\Queries\" />
+    <None Remove="Languages\Queries\" />
+    <None Remove="Languages\Commands\" />
+    <None Remove="ShippingAddresses\" />
+    <None Remove="ShippingAddresses\Commands\" />
+    <None Remove="ShippingAddresses\Queries\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Interfaces\" />
     <Folder Include="Repositories\" />
     <Folder Include="Repositories\Abstraction\" />
-    <Folder Include="Repositories\Implementation\" />
+    <Folder Include="Common\" />
+    <Folder Include="Common\Mapping\" />
+    <Folder Include="Dtos\" />
+    <Folder Include="Users\" />
+    <Folder Include="Users\Commands\" />
+    <Folder Include="Users\Queries\" />
+    <Folder Include="Users\Commands\CreateUser\" />
+    <Folder Include="Users\Queries\GetUsers\" />
+    <Folder Include="Dtos\UserDtos\" />
+    <Folder Include="Dtos\BookFormatDtos\" />
+    <Folder Include="Dtos\BookLanguageDtos\" />
+    <Folder Include="Dtos\LanguageDtos\" />
+    <Folder Include="Dtos\FormatDtos\" />
+    <Folder Include="Dtos\GenreDtos\" />
+    <Folder Include="Dtos\WishlistItemDtos\" />
+    <Folder Include="Dtos\WishlistDtos\" />
+    <Folder Include="Dtos\ShippingAddressDtos\" />
+    <Folder Include="Dtos\ReviewDtos\" />
+    <Folder Include="Dtos\CheckoutDtos\" />
+    <Folder Include="Dtos\BookGenreDtos\" />
+    <Folder Include="Languages\" />
+    <Folder Include="Formats\" />
+    <Folder Include="Genres\" />
+    <Folder Include="Formats\Commands\" />
+    <Folder Include="Formats\Queries\" />
+    <Folder Include="Genres\Commands\" />
+    <Folder Include="Genres\Queries\" />
+    <Folder Include="Languages\Queries\" />
+    <Folder Include="Languages\Commands\" />
+    <Folder Include="ShippingAddresses\" />
+    <Folder Include="ShippingAddresses\Commands\" />
+    <Folder Include="ShippingAddresses\Queries\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Repositories\Abstraction\IGenericRepository.cs">
@@ -26,6 +89,9 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.9" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.2.2" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj" />

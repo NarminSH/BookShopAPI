@@ -5,8 +5,10 @@ namespace Domain.Entities
     {
         public string ContactPhone { get; set; }
         public string Method { get; set; }
-        public int UserId { get; set; }
-        public User User { get; set; }
+        public string? UserId { get; set; }
+        public decimal Subtotal { get; set; }
+        //todo add many to many with book and order
+        public AppUser User { get; set; }
         public ShippingAddress shippingAddress { get; set; }
 }
 }
